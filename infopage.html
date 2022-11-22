@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simplyghoulery</title>
+        <link rel="icon" href="square-cat.jpg">
+        <link rel="stylesheet" href="basepage.css">
+        <link rel="stylesheet" href="infopage.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="infotraficn.js" type="module"></script>
+    </head>
+    <body id="infobody">
+        <div class="banner"></div>
+        <div class="navigation">
+
+            <div class="empty-left-nav"></div>
+            <div class="navbar">
+
+                <div class="searchbar">
+
+                    <button class="bsearch">&#x1F50D;</button>
+                    <input type="search" id="queryi" name="q" class="search"
+                    placeholder="Search." aria-label="search throgh the content">
+
+
+                </div>
+                <div class="bthree">
+
+                    <button class="binfo-info">INFO</button>
+                    <button class="blibrary-info" onclick="window.location.href='libpage.html';">LIBRARY</button>
+                    <button class="bstream-info" onclick="window.location.href='index.html';">STREAM</button>
+
+
+                </div>
+
+
+            </div>
+            <div class="empty-right-nav"></div>
+
+        </div>
+        
+        <div class="mostpage-info">
+            <div class="empty-left-info"></div>
+            <div class="middle-info">
+
+                <div class="personal-info">
+
+                    <div class="links-pictures">
+
+                        <img src="square-cat.jpg" style="width: 240px;
+                        margin-left: 60px;
+                        margin-bottom: 18px;
+                        margin-top: 20px;
+                        border-radius: 135px;">
+
+                      
+
+                    </div>
+
+                    <div class="personal-text">
+                        
+
+                        <div class="text-display" id="text-display"></div>
+                            
+
+                            <div class="thisicon">
+                                <div class="insta">
+                                    <a href="https://instagram.com">
+                                        <img class="instacon" src="data:image/png;base64,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">
+                                    </a>
+                                </div><div class="twitt">
+                                    <a href="https://twitter.com">
+                                        <img class="twittcon" src="data:image/png;base64,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">
+                                    </a>
+                                </div>
+                            </div>
+                        
+                        
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="picture-slide-info" id="picnot"></div>
+                <div class="laste">
+                    <button class="lo" onclick="window.location.href='login.html';"></button>
+                </div>
+
+            </div>
+            <div class="empty-right-info"></div>
+        </div>
+        
+        
+    </body>
+</html>

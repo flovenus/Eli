@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simplyghoulery</title>
+        <link rel="stylesheet" href="logbasepage.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <script src="main.js" type="module"></script>
+    </head>
+
+    <body>
+        <div class="banner"></div>
+        <div class="navigation">
+
+            <div class="empty-left-nav"></div>
+            <div class="navbar">
+
+                <div class="searchbar">
+
+                   
+                    <button class="bsearch">&#x1F50D;</button>
+                    <input type="search" id="query" name="q" class="search"
+                    placeholder="Search." aria-label="search throgh the content">
+
+
+                </div>
+                <div class="bthree">
+
+                    <button class="binfo" onclick="window.location.href='loginfopage.html';">INFO</button>
+                    <button class="blibrary" onclick="window.location.href='loglibpage.html';">LIBRARY</button>
+                    <button class="bstream">STREAM</button>
+
+
+                </div>
+
+
+            </div>
+            <div class="empty-right-nav"></div>
+
+        </div>
+        
+        <div class="mostpage">
+
+            <div class="empty-left"></div>
+            <div class="middle-content">
+                <div class="post-form">
+
+                    <button class="pic-submit">Add Picture</button>
+                    <div class="post-pic"></div>
+                    <input class="post-title" type="text">
+                    <textarea class="post-text-area" placeholder="post text here"></textarea>
+                    <input class="post-tag" type="text" placeholder="#add tags"><button class="tag-submit">+</button>
+                    <button class="post-submit">Post</button>
+                    
+                </div>
+            </div>
+            <div class="empty-right"></div>
+
+        </div>
+        
+    </body>
+</html>

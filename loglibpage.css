@@ -1,0 +1,94 @@
+body{
+    font-family: 'oswald', sans-serif;
+}
+.bstream-lib{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3C3D3E;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.bstream-lib:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.bstream-lib:active{
+    background-color: #858585;
+}
+
+.blibrary-lib{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #767676;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.blibrary-lib:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.blibrary-lib:active{
+    background-color: #858585;
+}
+
+.binfo-lib{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3C3D3E;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.binfo-lib:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.binfo-lib:active{
+    background-color: #858585;
+}
+
+
+.mostpage-lib{
+    margin-top: 208px;
+    background-color: #3C3D3E;
+    height: 747px;
+    width: 100%;
+}
+
+
+.folder-tag{
+    background-color: #767676;
+    width: 180px;
+    height: 20px;
+}
+.folder-tag:hover{
+    cursor: pointer;
+}
+.folder-body{
+    background-color: purple;
+    width: 180px;
+    height: 160px;
+}
+.folder-body{
+    cursor: pointer;
+}

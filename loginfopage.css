@@ -1,0 +1,363 @@
+body{
+    font-family: 'oswald', sans-serif;
+}
+.mostpage-info{
+    margin-top: 160px;
+    height: 795px;
+    display: grid;
+    grid-template-columns: 230px 1fr 230px;
+}
+.empty-left-info{
+    background-color: #3C3D3E;
+    
+}
+.empty-right-info{
+    background-color: #3C3D3E;
+}
+.middle-info{
+    background-color: #3C3D3E;
+}
+
+.personal-info{
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    background-color: #3C3D3E;
+    width: 100%;
+    height: 472px;
+    margin-top: 48px;
+}
+
+
+
+.bstream-info{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3C3D3E;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.bstream-info:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.bstream-info:active{
+    background-color: #858585;
+}
+
+.blibrary-info{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3C3D3E;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.blibrary-info:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.blibrary-info:active{
+    background-color: #858585;
+}
+
+.binfo-info{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #767676;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.binfo-info:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.binfo-info:active{
+    background-color: #858585;
+}
+
+
+
+
+
+
+
+.picture-slide-info{
+    background-color: darkred;
+    width: 100%;
+    height: 275px;
+    margin-top: 20px;
+}
+
+
+.links-pictures{
+    background-color: #3C3D3E;
+    width: 360px;
+    height: 100%;
+
+}
+
+.linkbox{
+    height: 194px;
+    width: 300px;
+    margin-left: 30px;
+    background-color: #3C3D3E;
+}
+
+.text-display{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    height: 475px;
+    width: 850px;
+    background-color: #3C3D3E;
+    margin-left: 20px;
+}
+
+
+
+
+.laste{
+    background-color: #3C3D3E;
+    height: 275px;
+}
+.lo{
+    height: 30px;
+    width: 60px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+.lo:hover{
+    cursor: pointer;
+}
+.lo:active{
+    background-color: #767676;
+}
+
+.infotype{
+    resize: none;
+    margin-top: 4px;
+    height: 466px;
+    width: 792px;
+}
+
+
+
+
+
+.link1{
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    background-color: #3C3D3E;
+}
+.link2{
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    background-color: #3C3D3E;
+}
+.link3{
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    background-color: #3C3D3E;
+}
+.link4{
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    background-color: #3C3D3E;
+}
+.link5{
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    background-color: #3C3D3E;
+}
+
+
+.linkbox1{
+    height: 100%;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 0;
+}
+.linkem1{
+    height: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.linkbox2{
+    height: 100%;
+    border-color: black;
+    border-width: 1px;
+}
+.linkem2{
+    height: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.linkbox3{
+    height: 100%;
+    border-color: black;
+    border-width: 1px;
+}
+.linkem3{
+    height: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.linkbox4{
+    height: 100%;
+    border-color: black;
+    border-width: 1px;
+}
+.linkem4{
+    height: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.linkbox5{
+    height: 90%;
+    border-color: black;
+    border-width: 1px;
+}
+.linkem5{
+    height: 94%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.linkbut1{
+    background-color: #3C3D3E;
+    color: white;
+    border-color: #3C3D3E;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.linkbut1:hover{
+    cursor: pointer;
+}
+.linkbut1:active{
+    background-color: #767676;
+}
+
+.linkbut2{
+    background-color: #3C3D3E;
+    color: white;
+    border-color: #3C3D3E;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.linkbut2:hover{
+    cursor: pointer;
+}
+.linkbut2:active{
+    background-color: #767676;
+}
+
+.linkbut3{
+    background-color: #3C3D3E;
+    color: white;
+    border-color: #3C3D3E;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.linkbut3:hover{
+    cursor: pointer;
+}
+.linkbut3:active{
+    background-color: #767676;
+}
+
+.linkbut4{
+    background-color: #3C3D3E;
+    color: white;
+    border-color: #3C3D3E;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.linkbut4:hover{
+    cursor: pointer;
+}
+.linkbut4:active{
+    background-color: #767676;
+}
+
+.linkbut5{
+    background-color: #3C3D3E;
+    color: white;
+    border-color: #3C3D3E;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.linkbut5:hover{
+    cursor: pointer;
+}
+.linkbut5:active{
+    background-color: #767676;
+}
+
+.infotype{
+    font-family: 'oswald', sans-serif;
+}
+
+.subtext{
+    margin-top: 415px;
+    margin-left: 300px;
+    height: 30px;
+    width: 50px;
+    font-size: 10px;
+    padding-top: 0;
+    background-color: #3C3D3E;
+    border-color: #3C3D3E;
+    border-style: solid;
+    color: white;
+    font-family: 'oswald', sans-serif;
+}
+.subtext:hover{
+    cursor: pointer;
+    background-color: #767676;
+    border-color: #767676;
+}
+
+.publishtext{
+    margin-left: 300px;
+    height: 32px;
+    width: 50px;
+    background-color: #3C3D3E;
+    border-color: #3C3D3E;
+    border-style: solid;
+    color: white;
+    font-family: 'oswald', sans-serif;
+}
+.publishtext:hover{
+    cursor: pointer;
+    background-color: #767676;
+    border-color: #767676;
+}

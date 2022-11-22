@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simplyghoulery</title>
+        <link rel="stylesheet" href="logbasepage.css">
+        <link rel="stylesheet" href="loginfopage.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="infotraficlog.js" type="module"></script>
+        <script src="handover.js"></script>
+    </head>
+    <body>
+        
+        <div class="banner"></div>
+        <div class="navigation">
+
+            <div class="empty-left-nav"></div>
+            <div class="navbar">
+
+                <div class="searchbar">
+
+                    <button class="bsearch">&#x1F50D;</button>
+                    <input type="search" id="query" name="q" class="search"
+                    placeholder="Search." aria-label="search throgh the content">
+
+
+                </div>
+                <div class="bthree">
+
+                    <button class="binfo-info">INFO</button>
+                    <button class="blibrary-info" onclick="window.location.href='loglibpage.html';">LIBRARY</button>
+                    <button class="bstream-info" onclick="window.location.href='logbasepage.html';">STREAM</button>
+
+
+                </div>
+
+
+            </div>
+            <div class="empty-right-nav"></div>
+
+        </div>
+        
+        <div class="mostpage-info">
+            <div class="empty-left-info"></div>
+            <div class="middle-info">
+
+                <div class="personal-info">
+
+                    <div class="links-pictures">
+
+                        <img src="square-cat.jpg" style="width: 240px;
+                        margin-left: 60px;
+                        margin-bottom: 18px;
+                        margin-top: 20px;
+                        border-radius: 135px;">
+
+                        <div class="linkbox">
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="personal-text">
+
+                        
+
+                        <div class="text-display">
+
+                            <div>
+                                <textarea placeholder='Infotext' class="infotype" id="intex"></textarea>
+                            </div>
+                            <div>
+                                <button onclick="saveIt()" class="subtext">Submit</button>
+                                <button class="publishtext" onclick="location.reload()">Publish</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="picture-slide-info" id="picsl"></div>
+                <div class="laste">
+                    <button class="lo" onclick="window.location.href='index.html';">Log out</button>
+                </div>
+
+            </div>
+            <div class="empty-right-info"></div>
+        </div>
+        
+    </body>
+</html>

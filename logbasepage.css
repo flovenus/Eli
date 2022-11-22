@@ -1,0 +1,232 @@
+body{
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-rows: 160px 1fr;
+    font-family: 'oswald', sans-serif;
+}
+.banner{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 160px;
+}
+.mostpage{
+    display: grid;
+    grid-template-columns: 1fr 900px 1fr;
+    margin-top: 208px;
+    background-color: #3C3D3E;
+    height: 1000px;
+}
+.empty-left{
+background-color: #3C3D3E;
+}
+.middle-content{
+background-color: gray;
+padding-top: 30px;
+padding-left: 80px;
+padding-right: 80px;
+}
+.empty-right{
+background-color: #3C3D3E;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: 230px 1fr 230px;
+    width: 100%;
+    position: fixed;
+    height: 48px;
+    margin-top: 160px;
+}
+.empty-left-nav{
+    background-color: #3C3D3E;
+    
+    height: 48px;
+}
+.empty-right-nav{
+    background-color: #3C3D3E;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #3C3D3E;
+    border-style: solid;
+    border-top-width: 0;
+    border-bottom-color: white;
+    border-right-color: #3C3D3E;
+    border-left-color: #3C3D3E;
+    border-top-color: #3C3D3E;
+}
+
+
+.search{
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    height: 20px;
+    width: 150px;
+    margin-top: 16px;
+    margin-left: 0;
+    background-color: #3C3D3E;
+    border-left-color: #3C3D3E;
+    border-top-color: #3C3D3E;
+    border-right-color: #3C3D3E;
+    border-style: solid;
+    border-bottom-color: white;
+    color: white;
+    font-size: 15px;
+}
+
+.bsearch{
+    height: 22px;
+    margin-right: 0;
+    background-color: #3C3D3E;
+    border-style: solid;
+    border-color: #3C3D3E;
+}
+.bsearch:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+.bstream{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #767676;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.bstream:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.bstream:active{
+    background-color: #858585;
+}
+
+.blibrary{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3C3D3E;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.blibrary:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.blibrary:active{
+    background-color: #858585;
+}
+
+.binfo{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3C3D3E;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+}
+.binfo:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+.binfo:active{
+    background-color: #858585;
+}
+
+
+
+.post-pic{
+    background-color: green;
+    width: 100%;
+    height: 420px;
+}
+.post-title{
+    background-color: rgb(50, 50, 50);
+    height: 50px;
+    width: 100%;
+}
+.post-text{
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+}
+.post-tag{
+    background-color: purple;
+    width: 100%;
+    height: 20px;
+}
+
+
+.pic-submit{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pic-submit:hover{
+    cursor: pointer;
+}
+
+
+.post-title{
+    width: 95%;
+    height: 40px;
+    font-size: 25px;
+}
+
+
+.title-submit{
+    height: 36px;
+    width: 3%;
+    margin-top: 0;
+}
+.title-submit:hover{
+    cursor: pointer;
+}
+
+
+
+.post-text-area{
+    resize: none;
+    width: 100%;
+    height: 200px;
+}
+
+.post-tag{
+    background-color: white;
+    color: blue;
+    width: 96%;
+}
+.tag-submit:hover{
+    cursor: pointer;
+}
+
+.post-submit:hover{
+    cursor: pointer;
+}

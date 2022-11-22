@@ -1,0 +1,62 @@
+body{
+    font-family: 'oswald', sans-serif;
+}
+.logbody{
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+}
+
+.login-long{
+    display: grid;
+    grid-template-rows: 270px 370px 1fr;
+    
+
+}
+.upperlog{
+    background-color: transparent;
+}
+
+.login-frame{
+    background-color: #3C3D3E;
+}
+
+.passwordbox{
+    margin-top: 260px;
+    margin-left: 70px;
+    margin-right: 80px;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    border-color: #858585;
+    background-color: #858585;
+    border-style: solid;
+    border-radius: 3px;
+    font-family: 'oswald', sans-serif;
+}
+
+.text2{
+    margin-top: 240px;
+    margin-left: 70px;
+    color: white;
+    font-weight: 600;
+}
+
+.bsub{
+    font-family: 'oswald', sans-serif;
+    margin-left: 412px;
+    margin-top: 5px;
+    background-color: #3C3D3E;
+    border-style: solid;
+    border-color: #3C3D3E;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.bsub:hover{
+    background-color: #767676;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bsub:active{
+    background-color: #858585;
+}
